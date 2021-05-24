@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    background: rgb(30, 132, 228);
+}
+
+.jokes-container{
+    display: flex;
+    background: black;
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.text-container{
+    display: flex;
+    background: white;
+    width: 475px;
+    height: 80px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container{
+   background-color: red;
+   display: flex;
+   position: absolute;
+   width: 200px;
+   height: 100px;
+   margin-top: 250px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+}
+
+.getJokes {
+    color: black;
+    width: 170px;
+    height:80px;
+    font-size: larger;
+}
+
